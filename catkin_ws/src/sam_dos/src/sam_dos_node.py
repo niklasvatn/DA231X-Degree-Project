@@ -15,7 +15,7 @@ if __name__ == '__main__':
                         help='Amount of noise to add to the messages.')
     args = parser.parse_args()
 
-    rospy.init_node('spoof_publisher')
+    rospy.init_node("spoof_node", anonymous=True)
     rate = rospy.Rate(PUBLISH_RATE)
     publishers = [rospy.Publisher(TOPIC_NAME_SPACE + topic, Float64, queue_size=10) for topic in TOPICS]
     while not rospy.is_shutdown():
