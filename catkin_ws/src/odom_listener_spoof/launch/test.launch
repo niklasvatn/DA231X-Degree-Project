@@ -1,0 +1,10 @@
+<launch>
+	<group ns="/sam/dr">
+		<node
+			pkg="odom_listener_spoof"
+			type="odom_listener_spoof_node"
+			name="odom_listener"
+			respawn="true"
+		/>
+	</group>
+</launch>
