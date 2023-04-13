@@ -7,7 +7,7 @@ TOPICS = ['yaw', 'pitch', 'roll']
 PUBLISH_RATE = 10
 
 if __name__ == '__main__':
-    rospy.init_node("spoof_node", anonymous=True)
+    rospy.init_node("ros_dos_node")
     rate = rospy.Rate(PUBLISH_RATE)
     [yaw_publisher, pitch_publisher, roll_publisher] = [rospy.Publisher(TOPIC_NAME_SPACE + topic, Float64, queue_size=10) for topic in TOPICS]
     while not rospy.is_shutdown():

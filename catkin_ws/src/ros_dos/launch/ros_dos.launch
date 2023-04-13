@@ -1,0 +1,10 @@
+<launch>
+	<group ns="/sam/dr">
+		<node
+			pkg="ros_dos"
+			type="ros_dos_node"
+			name="ros_dos_node"
+			respawn="true"
+		/>
+	</group>
+</launch>
