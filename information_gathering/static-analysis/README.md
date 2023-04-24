@@ -1,6 +1,6 @@
 # Static code analysis
 
-This directory contains the results of the static code analysis using [Cppcheck](https://cppcheck.sourceforge.io/). The repos analyzed are a subset of the [Smarc Project](https://github.com/smarc-project/) and listed in [repo-list.txt](repo-list.txt). I excluded the repos that were specific to the robot LoLo or archived. In total, 35 repos were analyzed. Of them 22 contained C++/C code and potential bugs were identified in 9 of them.
+This directory contains the results of the static code analysis using [Cppcheck](https://cppcheck.sourceforge.io/). The repos analyzed are a subset of the [Smarc Project](https://github.com/smarc-project/) and listed in [repo-list.txt](repo-list.txt). I excluded the repos that were specific to the robot LoLo or archived. In total, 35 repos were analyzed. Of them 21 contained C++/C code and potential bugs were identified in 9 of them.
 
 ## Procedure
 
