@@ -1,0 +1,15 @@
+[smarc_simulations/smarc_gazebo_plugins/smarc_gazebo_plugins/src/UnderwaterSonarPlugin.cc:42:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If GZ_REGISTER_SENSOR_PLUGIN is a macro then please configure it. [unknownMacro][
+GZ_REGISTER_SENSOR_PLUGIN(UnderwaterSonarPlugin)
+^
+[smarc_simulations/smarc_gazebo_plugins/smarc_gazebo_plugins/src/UnderwaterSonarSensor.cc:65:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If GZ_REGISTER_STATIC_SENSOR is a macro then please configure it. [unknownMacro][
+GZ_REGISTER_STATIC_SENSOR("underwater_sonar", UnderwaterSonarSensor)
+^
+[smarc_simulations/smarc_gazebo_plugins/smarc_gazebo_ros_plugins/src/gazebo_ros_image_sonar.cpp:56:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If GZ_REGISTER_SENSOR_PLUGIN is a macro then please configure it. [unknownMacro][
+GZ_REGISTER_SENSOR_PLUGIN(GazeboRosImageSonar)
+^
+[smarc_simulations/smarc_gazebo_plugins/smarc_gazebo_ros_plugins/src/gazebo_ros_underwater_sonar.cpp:56:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If GZ_REGISTER_SENSOR_PLUGIN is a macro then please configure it. [unknownMacro][
+GZ_REGISTER_SENSOR_PLUGIN(GazeboUnderwaterSonar)
+^
+[smarc_simulations/smarc_gazebo_plugins/smarc_gazebo_ros_plugins/src/gazebo_ros_underwater_sonar_ray.cpp:56:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If GZ_REGISTER_SENSOR_PLUGIN is a macro then please configure it. [unknownMacro][
+GZ_REGISTER_SENSOR_PLUGIN(GazeboUnderwaterSonarRay)
+^

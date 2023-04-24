@@ -1,0 +1,47 @@
+[roswasm_suite_native/roscpp_json_serialize/external/rapidjson/example/messagereader/messagereader.cpp:22:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If RAPIDJSON_DIAG_OFF is a macro then please configure it. [unknownMacro][
+RAPIDJSON_DIAG_OFF(switch-enum)
+^
+[roswasm_suite_native/roscpp_json_serialize/external/rapidjson/test/perftest/schematest.cpp:14:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If RAPIDJSON_DIAG_PUSH is a macro then please configure it. [unknownMacro][
+RAPIDJSON_DIAG_PUSH
+^
+[roswasm_suite_native/roscpp_json_serialize/external/rapidjson/test/unittest/readertest.cpp:26:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If RAPIDJSON_DIAG_PUSH is a macro then please configure it. [unknownMacro][
+RAPIDJSON_DIAG_PUSH
+^
+[roswasm_suite_native/roscpp_json_serialize/external/rapidjson/test/unittest/readertest.cpp:29:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If RAPIDJSON_DIAG_OFF is a macro then please configure it. [unknownMacro][
+RAPIDJSON_DIAG_OFF(float-equal)
+^
+[roswasm_suite_native/roswasm_native/external/cbor-lite/unit/basic.cpp:8:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If BOOST_AUTO_TEST_SUITE is a macro then please configure it. [unknownMacro][
+BOOST_AUTO_TEST_SUITE(cbor_lite)
+^
+[roswasm_suite_native/roswasm_native/external/cbor-lite/unit/canon.cpp:9:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If BOOST_AUTO_TEST_SUITE is a macro then please configure it. [unknownMacro][
+BOOST_AUTO_TEST_SUITE(cbor_lite)
+^
+[roswasm_suite_native/roswasm_native/external/cbor-lite/unit/codec.cpp:9:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If BOOST_AUTO_TEST_SUITE is a macro then please configure it. [unknownMacro][
+BOOST_AUTO_TEST_SUITE(cbor_lite)
+^
+[roswasm_suite_native/roswasm_native/external/cbor-lite/unit/exception.cpp:8:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If BOOST_AUTO_TEST_SUITE is a macro then please configure it. [unknownMacro][
+BOOST_AUTO_TEST_SUITE(cbor_lite)
+^
+[roswasm_suite_native/roswasm_native/external/cbor-lite/unit/fp.cpp:9:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If BOOST_AUTO_TEST_SUITE is a macro then please configure it. [unknownMacro][
+BOOST_AUTO_TEST_SUITE(cbor_lite)
+^
+[roswasm_suite_native/roswasm_webgui_native/src/imgui/imgui.cpp:1883:5: [error:[ va_list 'args_copy' used before va_start() was called. [va_list_usedBeforeStarted][
+    va_copy(args_copy, args);
+    ^
+[roswasm_suite_native/roswasm_webgui_native/src/imgui/imgui.cpp:1888:9: [error:[ va_list 'args_copy' used before va_start() was called. [va_list_usedBeforeStarted][
+        va_end(args_copy);
+        ^
+[roswasm_suite_native/roswasm_webgui_native/src/imgui/imgui_draw.cpp:505:13: [error:[ There is an unknown macro here somewhere. Configuration is required. If IM_PLACEMENT_NEW is a macro then please configure it. [unknownMacro][
+            IM_PLACEMENT_NEW(&_Channels[i]) ImDrawChannel();
+            ^
+[roswasm_suite_native/roswasm_webgui_native/src/imgui/imgui_draw.cpp:104:0: [error:[ No header in #include [preprocessorErrorDirective][
+#include IMGUI_STB_RECT_PACK_FILENAME
+^
+[roswasm_suite_native/roswasm_webgui_native/src/imgui/imgui_draw.cpp:127:0: [error:[ No header in #include [preprocessorErrorDirective][
+#include IMGUI_STB_TRUETYPE_FILENAME
+^
+[roswasm_suite_native/roswasm_webgui_native/src/roswasm_webgui/roswasm_monlaunch.cpp:31:21: [error:[ Uninitialized variable: desired_state [uninitvar][
+    while (state == desired_state) {
+                    ^
+[nofile:0:0: [information:[ Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information. [toomanyconfigs][
+

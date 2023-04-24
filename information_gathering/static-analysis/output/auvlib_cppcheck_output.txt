@@ -1,0 +1,6 @@
+[auvlib/src/data_tools/src/jsf_data.cpp:386:18: [error:[ Uninitialized variable: start [uninitvar][
+    for (int i = start; i < pings.size()-1; i+=2) {
+                 ^
+[auvlib/src/libxtf/src/demo_xtf_reader.cpp:69:8: [error:[ Memory leak: buffer [memleak][
+       return 0;
+       ^

@@ -1,0 +1,63 @@
+[smarc_navigation/auv_ekf_localization/utils/munkres/matrix.cpp:51:7: [error:[ Null pointer dereference: m_matrix [nullPointer][
+      m_matrix[i][j] = *value;
+      ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/matrix.cpp:35:14: [note:[ Assignment 'm_matrix=nullptr', assigned value is 0
+  m_matrix = nullptr;
+             ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/matrix.cpp:51:7: [note:[ Null pointer dereference
+      m_matrix[i][j] = *value;
+      ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/matrix.cpp:64:9: [error:[ Null pointer dereference: m_matrix [nullPointer][
+        m_matrix[i][j] = other.m_matrix[i][j];
+        ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/matrix.cpp:60:16: [note:[ Assignment 'm_matrix=nullptr', assigned value is 0
+    m_matrix = nullptr;
+               ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/matrix.cpp:64:9: [note:[ Null pointer dereference
+        m_matrix[i][j] = other.m_matrix[i][j];
+        ^
+[smarc_navigation/auv_ekf_slam/utils/munkres/matrix.cpp:51:7: [error:[ Null pointer dereference: m_matrix [nullPointer][
+      m_matrix[i][j] = *value;
+      ^
+[smarc_navigation/auv_ekf_slam/utils/munkres/matrix.cpp:35:14: [note:[ Assignment 'm_matrix=nullptr', assigned value is 0
+  m_matrix = nullptr;
+             ^
+[smarc_navigation/auv_ekf_slam/utils/munkres/matrix.cpp:51:7: [note:[ Null pointer dereference
+      m_matrix[i][j] = *value;
+      ^
+[smarc_navigation/auv_ekf_slam/utils/munkres/matrix.cpp:64:9: [error:[ Null pointer dereference: m_matrix [nullPointer][
+        m_matrix[i][j] = other.m_matrix[i][j];
+        ^
+[smarc_navigation/auv_ekf_slam/utils/munkres/matrix.cpp:60:16: [note:[ Assignment 'm_matrix=nullptr', assigned value is 0
+    m_matrix = nullptr;
+               ^
+[smarc_navigation/auv_ekf_slam/utils/munkres/matrix.cpp:64:9: [note:[ Null pointer dereference
+        m_matrix[i][j] = other.m_matrix[i][j];
+        ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/munkres.h:31:25: [error:[ The one definition rule is violated, different classes/structs have the same name 'Munkres < double >' [ctuOneDefinitionRuleViolation][
+template<typename Data> class Munkres
+                        ^
+[smarc_navigation/auv_ekf_slam/utils/munkres/munkres.h:31:25: [note:[ The one definition rule is violated, different classes/structs have the same name 'Munkres < double >'
+template<typename Data> class Munkres
+                        ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/munkres.h:31:25: [note:[ The one definition rule is violated, different classes/structs have the same name 'Munkres < double >'
+template<typename Data> class Munkres
+                        ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/munkres.h:31:25: [error:[ The one definition rule is violated, different classes/structs have the same name 'Munkres < float >' [ctuOneDefinitionRuleViolation][
+template<typename Data> class Munkres
+                        ^
+[smarc_navigation/auv_ekf_slam/utils/munkres/munkres.h:31:25: [note:[ The one definition rule is violated, different classes/structs have the same name 'Munkres < float >'
+template<typename Data> class Munkres
+                        ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/munkres.h:31:25: [note:[ The one definition rule is violated, different classes/structs have the same name 'Munkres < float >'
+template<typename Data> class Munkres
+                        ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/munkres.h:31:25: [error:[ The one definition rule is violated, different classes/structs have the same name 'Munkres < int >' [ctuOneDefinitionRuleViolation][
+template<typename Data> class Munkres
+                        ^
+[smarc_navigation/auv_ekf_slam/utils/munkres/munkres.h:31:25: [note:[ The one definition rule is violated, different classes/structs have the same name 'Munkres < int >'
+template<typename Data> class Munkres
+                        ^
+[smarc_navigation/auv_ekf_localization/utils/munkres/munkres.h:31:25: [note:[ The one definition rule is violated, different classes/structs have the same name 'Munkres < int >'
+template<typename Data> class Munkres
+                        ^

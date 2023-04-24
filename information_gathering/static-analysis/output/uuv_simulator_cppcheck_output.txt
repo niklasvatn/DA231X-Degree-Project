@@ -1,0 +1,24 @@
+[uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/Dynamics.cc:75:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If REGISTER_DYNAMICS_CREATOR is a macro then please configure it. [unknownMacro][
+REGISTER_DYNAMICS_CREATOR(DynamicsZeroOrder,
+^
+[uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/LiftDragModel.cc:82:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If REGISTER_LIFTDRAG_CREATOR is a macro then please configure it. [unknownMacro][
+REGISTER_LIFTDRAG_CREATOR(LiftDragQuadratic,
+^
+[uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/ThrusterConversionFcn.cc:70:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If REGISTER_CONVERSIONFUNCTION_CREATOR is a macro then please configure it. [unknownMacro][
+REGISTER_CONVERSIONFUNCTION_CREATOR(ConversionFunctionBasic,
+^
+[uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UmbilicalModel.cc:78:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If REGISTER_UMBILICALMODEL_CREATOR is a macro then please configure it. [unknownMacro][
+REGISTER_UMBILICALMODEL_CREATOR(UmbilicalModelBerg, &UmbilicalModelBerg::create)
+^
+[uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc:32:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If GZ_REGISTER_MODEL_PLUGIN is a macro then please configure it. [unknownMacro][
+GZ_REGISTER_MODEL_PLUGIN(UnderwaterObjectPlugin)
+^
+[uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc:35:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If GZ_REGISTER_MODEL_PLUGIN is a macro then please configure it. [unknownMacro][
+GZ_REGISTER_MODEL_PLUGIN(AccelerationsTestPlugin)
+^
+[uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/JointStatePublisher.cc:20:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If GZ_REGISTER_MODEL_PLUGIN is a macro then please configure it. [unknownMacro][
+GZ_REGISTER_MODEL_PLUGIN(JointStatePublisher)
+^
+[uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/UnderwaterWorldPlugin.cc:38:1: [error:[ There is an unknown macro here somewhere. Configuration is required. If GZ_REGISTER_WORLD_PLUGIN is a macro then please configure it. [unknownMacro][
+GZ_REGISTER_WORLD_PLUGIN(UnderwaterWorldPlugin)
+^

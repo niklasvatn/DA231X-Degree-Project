@@ -1,0 +1,3 @@
+[sbg_ros_driver/external/sbgECom/common/interfaces/sbgInterfaceSerialWin.c:33:30: [error:[ Null pointer dereference [nullPointer][
+  strcpy_s(outErrorMsg, 256, lpMsgBuf);
+                             ^

@@ -1,0 +1,3 @@
+[stim300/src/stim300_constants.h:141:3: [error:[ Found a exit path from function with non-void return type that has missing return statement [missingReturn][
+  {
+  ^
