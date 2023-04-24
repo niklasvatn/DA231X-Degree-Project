@@ -1,7 +1,0 @@
-## https://security.stackexchange.com/questions/36198/how-to-find-live-hosts-on-my-network
-
-# Standard
-nmap -sP 192.168.2.1/24 -oN host_discover_standard.txt
-
-# Check more ports
-nmap -sP -PA21,22,25,3389 192.168.2.1/24 -oN host_discover_extended.txt
