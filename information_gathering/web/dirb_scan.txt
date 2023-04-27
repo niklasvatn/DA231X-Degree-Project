@@ -1,0 +1,20 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb_scan.txt
+START_TIME: Thu Apr 27 15:34:03 2023
+URL_BASE: http://<SAM-IP>:8080/
+WORDLIST_FILES: /usr/share/wordlists/dirb/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://<SAM-IP>:8080/ ----
+
+-----------------
+END_TIME: Thu Apr 27 15:34:35 2023
+DOWNLOADED: 4612 - FOUND: 0
