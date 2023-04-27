@@ -5,7 +5,7 @@
 # Standard
 nmap -sn 192.168.2.1/24 -oN host_discovery_standard.txt
 sudo nmap -sn -PS22,3389 192.168.2.1/24 -oN host_discovery_tcp_syn.txt #custom TCP SYN scan
-sudo nmap -sn -PU161 192.168.2.1/24 -oN host_discovery_tcp_syn.txt #custom UDP scan
+sudo nmap -sn -PU161 192.168.2.1/24 -oN host_discovery_udp.txt #custom UDP scan
 
 
 # Check more ports

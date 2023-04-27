@@ -6,4 +6,4 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-nmap -vv -Pn -sC -sV -p0-65535 $1 -oA "{$1}_version_script"
+nmap -sC -sV -p0-65535 $1 -oA "${1}_port_and_version_scan"
